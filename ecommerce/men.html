@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+        <div class="logo">
+            Glamor</div>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="men.html">Men</a></li>
+                <li><a href="women.html">Women</a></li>
+                <li><a href="kids.html">Kids</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="cart.html"><img src="img/grocery-store.png" height="25vh" width="25vw"></a></li>
+</ul>
+        </div>
+    </section>
+    <div class="banner">
+        <div class="tagline1">
+            <img src="https://sslimages.shoppersstop.com/sys-master/root/hd6/hd2/32834845769758/Static-Web-Gas--2024-06--04--mens-page.jpg" width="100%" height="500vh">
+
+        </div>
+    </div>
+    <div class="product-list">
+        <div class="product-item">
+            <h2>White Puma</h2>
+            <img src="https://assets.ajio.com/medias/sys_master/root/20231012/BCLi/6527aa65ddf779151935dee6/-1117Wx1400H-466388415-white-MODEL.jpg" height="200px" width="200px">
+            <p class="price">Rs 349</p>
+            <div class="rating">★★★★★</div>
+            <div class="size-options">
+                <label for="size">Size:</label>
+                <select id="size" name="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select>
+            </div>
+            <button onclick="addToCart(this)" class="add-to-bag">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <h2>Green T-Shirt</h2>
+            <img src="https://assets.ajio.com/medias/sys_master/root/20231121/C6c3/655cdbefafa4cf41f596bcc7/-473Wx593H-466817674-seagreen-MODEL.jpg"height="200px" width="200px">
+            <p class="price">Rs 449</p>
+            <div class="rating">★★★★☆</div>
+            <div class="size-options">
+                <label for="size">Size:</label>
+                <select id="size" name="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select>
+            </div>
+            <button onclick="addToCart(this)" class="add-to-bag">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <h2>Sweatshirt</h2>
+            <img src="https://assets.ajio.com/medias/sys_master/root/20230629/HWY0/649d0996eebac147fc39513f/-473Wx593H-466156156-navy-MODEL.jpg" height="200px" width="200px">
+            <p class="price">Rs 500</p>
+            <div class="rating">★★★★☆</div>
+            <div class="size-options">
+                <label for="size">Size:</label>
+                <select id="size" name="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select>
+            </div>
+            <button onclick="addToCart(this)" class="add-to-bag">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <h2>Tacky Shirt</h2>
+            <img src="https://assets.ajio.com/medias/sys_master/root/20240110/e9Hu/659da69b74cb305fe00f2e06/-473Wx593H-466967664-multi-MODEL.jpg" height="200px" width="200px">
+            <p class="price">Rs 600</p>
+            <div class="rating">★★★★☆</div>
+            <div class="size-options">
+                <label for="size">Size:</label>
+                <select id="size" name="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select>
+            </div>
+            <button onclick="addToCart(this)" class="add-to-bag">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <h2>Co-ord Set</h2>
+            <img src="https://assets.ajio.com/medias/sys_master/root/20240123/JAkF/65afea6516fd2c6e6ab88015/-473Wx593H-466928517-multi-MODEL.jpg" height="200px" width="200px">
+            <p class="price">Rs 1297</p>
+            <div class="rating">★★★☆☆</div>
+            <div class="size-options">
+                <label for="size">Size:</label>
+                <select id="size" name="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select>
+            </div>
+            <button onclick="addToCart(this)" class="add-to-bag">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <h2>Shirt & Pant</h2>
+            <img src="https://assets.ajio.com/medias/sys_master/root/20231229/Yr7P/658dd8bfafa4cf41f5f4a179/-473Wx593H-466928517-cream-MODEL.jpg" height="200px" width="200px">
+            <p class="price">Rs 1399</p>
+            <div class="rating">★★★★☆</div>
+            <div class="size-options">
+                <label for="size">Size:</label>
+                <select id="size" name="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select>
+            </div>
+            <button onclick="addToCart(this)" class="add-to-bag">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <h2>Pant & Shirt</h2>
+            <img src="https://assets.ajio.com/medias/sys_master/root/20240422/hFg0/662667a105ac7d77bb1ce909/-473Wx593H-467269579-beige-MODEL.jpg" height="200px" width="200px">
+            <p class="price">Rs 1299</p>
+            <div class="rating">★★★★★</div>
+            <div class="size-options">
+                <label for="size">Size:</label>
+                <select id="size" name="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select>
+            </div>
+            <button onclick="addToCart(this)" class="add-to-bag">Add to Cart</button>
+        </div>
+        
+        
+    </div>
+    
+
+
+</body>
+<script src="scripts.js"></script>
+<script src="script1.js"></script>
+
+</html>

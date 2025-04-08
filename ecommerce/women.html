@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+        <div class="logo">
+            Glamor</div>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="men.html">Men</a></li>
+                <li><a href="women.html">Women</a></li>
+                <li><a href="kids.html">Kids</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="cart.html"><img src="img/grocery-store.png" height="25vh" width="25vw"></a></li>
+</ul>
+        </div>
+    </section>
+    <div class="banner">
+        <div class="tagline1">
+            <img src="https://img.freepik.com/free-vector/geometric-fashion-collection-facebook-cover_23-2149977424.jpg?t=st=1719611410~exp=1719615010~hmac=3ec4368d86c0bc475a015e35b4ab4606846c0c0d99abbafbc5965084b3ab7baa&w=1380" width="100%" height="600vh">
+
+        </div>
+    </div>
+    <div class="product-list">
+        <div class="product-item">
+            <h2>Black Summer Dress</h2>
+            <img src="https://assets.ajio.com/medias/sys_master/root/20230629/DTUx/649d7f85eebac147fc40ba38/-473Wx593H-441297182-darknavy-MODEL4.jpg" height="200px" width="200px">
+            <p class="price">Rs 599</p>
+            <div class="rating">★★★★★</div>
+            <div class="size-options">
+                <label for="size">Size:</label>
+                <select id="size" name="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select>
+            </div>
+            <button onclick="addToCart(this)" class="add-to-bag">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <h2>Heart Top</h2>
+            <img src=https://assets.ajio.com/medias/sys_master/root/20240601/1ZhQ/665af70016fd2c6e6a4381a9/-473Wx593H-700030439-green-MODEL.jpg height="200px" width="200px">
+            <p class="price">Rs 449</p>
+            <div class="rating">★★★★☆</div>
+            <div class="size-options">
+                <label for="size">Size:</label>
+                <select id="size" name="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select>
+            </div>
+            <button onclick="addToCart(this)" class="add-to-bag">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <h2>Black Top</h2>
+            <img src="https://assets.ajio.com/medias/sys_master/root/20231124/mmCL/6560cf42ddf77915199a43e6/-473Wx593H-466823595-black-MODEL.jpg" height="200px" width="200px">
+            <p class="price">Rs 500</p>
+            <div class="rating">★★★★☆</div>
+            <div class="size-options">
+                <label for="size">Size:</label>
+                <select id="size" name="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select>
+            </div>
+            <button onclick="addToCart(this)" class="add-to-bag">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <h2>Summery Yellow Dress</h2>
+            <img src="https://assets.ajio.com/medias/sys_master/root/20240513/46M6/66416ff716fd2c6e6afeff61/-473Wx593H-467312071-orange-MODEL.jpg" height="200px" width="200px">
+            <p class="price">Rs 600</p>
+            <div class="rating">★★★★☆</div>
+            <div class="size-options">
+                <label for="size">Size:</label>
+                <select id="size" name="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select>
+            </div>
+            <button onclick="addToCart(this)" class="add-to-bag">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <h2>Party Dress</h2>
+            <img src="https://assets.ajio.com/medias/sys_master/root/20240307/Hsy1/65e9febf05ac7d77bb9ffd7d/-473Wx593H-467145120-green-MODEL.jpg" height="200px" width="200px">
+            <p class="price">Rs 1297</p>
+            <div class="rating">★★★☆☆</div>
+            <div class="size-options">
+                <label for="size">Size:</label>
+                <select id="size" name="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select>
+            </div>
+            <button onclick="addToCart(this)" class="add-to-bag">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <h2>Traditional Frock</h2>
+            <img src="https://assets.ajio.com/medias/sys_master/root/20230802/N7k4/64ca79dca9b42d15c986d44c/-473Wx593H-466394902-maroon-MODEL.jpg" height="200px" width="200px">
+            <p class="price">Rs 1399</p>
+            <div class="rating">★★★★☆</div>
+            <div class="size-options">
+                <label for="size">Size:</label>
+                <select id="size" name="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select>
+            </div>
+            <button onclick="addToCart(this)" class="add-to-bag">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <h2>Women Colourblock Shirt Dress</h2>
+            <img src="https://assets.ajio.com/medias/sys_master/root/20240514/AIGF/6642bc8e05ac7d77bb5847bd/-1117Wx1400H-467326376-red-MODEL.jpg" height="200px" width="200px">
+            <p class="price">Rs 1299</p>
+            <div class="rating">★★★★★</div>
+            <div class="size-options">
+                <label for="size">Size:</label>
+                <select id="size" name="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select>
+            </div>
+            <button onclick="addToCart(this)" class="add-to-bag">Add to Cart</button>
+        </div>
+        
+        <!-- Add more products here -->
+    </div>
+    <!-- Add this somewhere in your HTML body, where you want to display the cart -->
+
+
+</body>
+<script src="scripts.js"></script>
+<script src="script1.js"></script>
+
+</html>

@@ -1,0 +1,362 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+body{
+    width:100%;
+}
+.header
+{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    align-content:center;
+    padding:20px 80px;
+    background-color: rgb(192, 146, 161);
+    box-shadow: 0px 15px 20px rgb(160, 123, 152);
+}
+.logo
+{
+ font-family: "Playwrite NZ", cursive;
+ font-size: 3vw;
+ font-weight:100px;
+
+}
+#navbar
+{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+
+}
+#navbar li
+{
+    list-style: none;
+    padding:0 20px;
+}
+#navbar li a
+{
+    text-decoration: none;
+    font-size:20px;
+    font-weight: 600;
+    color: rgb(14, 13, 13);
+    transition: 0.3s ease;
+}
+#navbar li a:hover{
+    color:rgb(65, 20, 71);
+    border-bottom:2px solid ;
+}
+#hero
+{
+    background-color: rgb(221, 232, 236);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.photo
+{
+    margin:10px;
+}
+.tagline
+{
+    padding-left: 90px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:35px;
+
+}
+.stunning
+{
+    color:rgb(110, 71, 84)
+}
+#till
+{
+    color:rgb(156, 52, 87)
+}
+#oo
+{
+    text-decoration: underline;
+    color:rgb(88, 61, 67);
+    font-size: 25px;
+
+}
+#featured
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+}
+#featured div
+{
+    padding:15px;
+    border:5px solid rgb(85, 75, 80);
+    margin:20px;
+    font-size: 30px;
+    font-weight: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    
+    
+}
+.menitem
+{
+    margin:15px;
+
+}
+.womenitem
+{
+    margin-right:15px;
+}
+#whyshopwithus
+{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 5px 15px rgb(131, 143, 67);
+    
+}
+#whyshopwithus h1
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#whyshopwithus hr
+{
+    color: yellow;
+}
+#remarks
+{
+    display:flex;
+    text-align:center;
+}
+#remarks div
+{
+    padding:20px;
+}
+#signup
+{
+    display:flex;
+    justify-content: center;
+    
+    align-items:center;
+    padding:40px;
+    background-color: rgb(136, 115, 122);
+}
+.sign{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+#signup p
+{
+    padding:20px;
+    margin:15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+#signup input
+{
+    padding-top: 0px;
+    padding-left:60px;
+    padding-right:60px;
+    height:5vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    outline: none;
+    border:2px solid;
+    font-weight: 700;
+}
+#signup button{
+    background-color: rgb(239, 195, 205);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 8px;
+    margin-left: 9px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:20px;
+    padding-right:20px;
+    height:5vh;
+    font-weight: 700;
+
+}
+/* Footer Styles */
+footer {
+    background-color: #423d3d;
+    color: white;
+    padding: 2em 0;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 1em;
+    min-width: 200px;
+}
+
+.footer-section h2 {
+    border-bottom: 2px solid #555;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 0.5em 0;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    border-top: 1px solid #555;
+    padding-top: 1em;
+    margin-top: 2em;
+}
+/* Style for the cart container */
+.cart {
+    top: 10%;
+    right: 2%;
+    width: 100%;
+    max-height: 80%;
+    overflow-y: auto;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 20px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.cart h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    padding:10px
+}
+
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.cart-item img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.cart-item p {
+    margin: 0 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+}
+
+.cart-item button {
+    background-color: #703c66;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 1vh 5vw;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+}
+
+.cart-item button:hover {
+    background-color: #a982a2;
+}
+
+
+.total-price {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+    text-align: right;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.total-price span {
+    font-weight: bold;
+    color: #333;
+}
+.total-price button
+{
+    color: white;
+    background-color: #703c66;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    padding:10px;
+    margin:10px;
+    width:100px;
+}
+.about
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin:10px;
+    border: 1px solid;
+    border-radius: 20px;
+    
+}
+.brand
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #5c4156;
+    background-color: rgb(203, 222, 216);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    border-radius:20px ;
+    padding: 30px;
+    margin: 10px;
+    font-size:20px ;
+
+}
+
+
+
+
+

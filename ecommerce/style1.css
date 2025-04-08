@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.tagline1
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display:flex;
+    justify-content: flex-start;
+    background-image:url(https://img.freepik.com/free-photo/portrait-handsome-stylish-hipster-lambersexual-model_158538-18005.jpg?w=900&t=st=1719608670~exp=1719609270~hmac=f4e06897ba5850bc144fbe1cc14ac8e8be33e456cb256a88470525cbdcbde0b7);
+    height:40vh;
+    width:100%;
+    background-size: cover;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.product-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.product-item h2 {
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.product-item .price {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.product-item .rating {
+    font-size: 16px;
+    color: #ffa500;
+    margin: 10px 0;
+}
+
+.product-item .size-options {
+    margin: 10px 0;
+}
+
+.product-item .size-options label {
+    margin-right: 10px;
+}
+
+.product-item .size-options select {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.product-item .add-to-bag {
+    background-color: #a17195;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product-item .add-to-bag:hover {
+    background-color: #ff4500;
+}
